@@ -27,3 +27,17 @@ tabEls.forEach((tab) => {
         });
     });
 });
+
+
+// modal
+const signupEl = document.querySelector('#signup');
+const modalBgEl = document.querySelector('.modal-background');
+const modalEl = document.querySelector('.modal');
+
+signupEl.addEventListener('click', () => {
+    modalEl.classList.add('is-active');
+});
+
+modalBgEl.addEventListener('click', () => {
+    modalEl.classList.remove('is-active');
+});
