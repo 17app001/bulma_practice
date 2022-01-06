@@ -82,9 +82,28 @@
         <div class="container">
             <div class="columns is-8 is-variable">
                 <div class="column is-6-desktop is-7-tablet">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores natus enim illum distinctio
-                        numquam quasi quibusdam vero quisquam. Perferendis cumque nisi ex rerum et pariatur beatae
-                        consectetur aliquid doloremque provident.</p>
+                    <div class="tabs is-boxed">
+                        <ul>
+                            <li class="is-active" data-target="produect-details"><a>Product Details</a></li>
+                            <li data-target="delivery-information"><a>Delivery Information</a></li>
+                        </ul>
+                    </div>
+                    <div class="px-2" id="tab-content">
+                        <div id="produect-details">
+                            <p class="is-size-5 title">Product</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit architecto praesentium
+                                quibusdam eligendi, dolore facilis molestiae magni nihil velit? Dignissimos magnam
+                                maiores nesciunt ipsum quisquam iste consequuntur itaque autem amet animi nam laudantium
+                                quam quis quidem perferendis, ipsam eligendi odio.</p>
+                        </div>
+                        <div id="delivery-information" class="is-hidden">
+                            <p class="is-size-5 title">Delivery Information</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit architecto praesentium
+                                quibusdam eligendi, dolore facilis molestiae magni nihil velit? Dignissimos magnam
+                                maiores nesciunt ipsum quisquam iste consequuntur itaque autem amet animi nam laudantium
+                                quam quis quidem perferendis, ipsam eligendi odio.</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="column is-6-desktop is-5-tablet">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, porro vero nisi, sed ipsum
