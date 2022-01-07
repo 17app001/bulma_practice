@@ -73,7 +73,24 @@
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio suscipit voluptate at
                         exercitationem nulla. Minus veniam illo nemo atque ipsum.
                     </p>
-                    <button class="button is-warning">Add to Cart</button>
+                    <form action="">
+                        <div class="field">
+                            <div class="control">
+                                <div class="select">
+                                    <select name="select-g" id="select-g">
+                                        <option value="">Small(250g)</option>
+                                        <option value="">Medium(400g)</option>
+                                        <option value="">Large(650g)</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="control">
+                                <button class="button is-warning">Add to Cart</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -196,6 +213,29 @@
         <div class="modal-background"></div>
         <div class="modal-content has-background-white py-5 px-5">
             <p class="title mb-6">Join the Club</p>
+            <form action="">
+                <div class="field">
+                    <label for="Name" class="label">Name</label>
+                    <div class="control">
+                        <input type="text" class="input" placeholder="Name" id="Name">
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="Email" class="label">Email</label>
+                    <div class="control">
+                        <input type="text" class="input" placeholder="Email" id="Email">
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="control">
+                        <input type="checkbox" name="conditions" id="conditions">
+                        i agree to the <a href="">term & conditions</a>
+                    </div>
+                </div>
+                <div class="mt-6 has-text-centered">
+                    <button class="button is-warning">Sign Up</button>
+                </div>
+            </form>
         </div>
     </div>
 
